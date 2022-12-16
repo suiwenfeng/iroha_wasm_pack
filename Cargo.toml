@@ -1,0 +1,16 @@
+[package]
+name = "iroha_wasm_pack"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+structopt = { version = "0.3.26" }
+clap = { version = "4.0.29" }
+cargo = { version = "0.67.0" }
+wasm-opt = { version = "0.110.2" }
+toml = { version = "0.5.10" }
+serde = { version = "1.0.150" }
+serde_derive = { version = "1.0.150" }
+log = { version = "0.4.17" }
+duct = { version = "0.13.6" }
+failure = { version = "0.1.8" }
